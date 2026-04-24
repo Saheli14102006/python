@@ -1,0 +1,10 @@
+n=int(input("enter"))
+a=0
+b=1
+print(a,b,end=" ")
+c=a+b
+while c<=n:
+    c=a+b
+    a=b
+    b=c
+    print(c,end=" ")
