@@ -1,6 +1,0 @@
-s=input('Enter a hyphen-seperated sequence of words: ')
-word=s.split('-')
-print(word)
-word.sort()
-print(word)
-print('-'.join(word))
