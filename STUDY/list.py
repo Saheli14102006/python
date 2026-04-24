@@ -1,0 +1,12 @@
+friends=['ABC',5,'OK',True]
+print(friends)
+print(friends[0])
+friends[0]='XYZ'
+print(friends)
+friends.append('Saheli')
+print(friends)
+l1=[6,9000,32,76,21]
+l1.sort()
+print(l1)
+l1.reverse()
+print(l1)
